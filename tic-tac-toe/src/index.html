@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+  <meta name="title" content="Tic Tac Toe With Friends">
+  <meta name="description" content="This online Tic Tac Toe game is the best version of the game on the web Instantly play this classic online game for free, no downloads or installs are necessary.">
+  <meta name="keywords" content="tic tac toe, tic tac toe online, tic tac toe with friends, open source, open source game">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+  <meta name="revisit-after" content="7 days">
+  <meta name="author" content="Bilal Ucar">
+  <meta property="og:image"content="http://tictactoe.bilalucar.com/assets/social-media.png"/>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style type="text/css">
+    .preloader{position:fixed;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:9999;background-color: #4d443f}
+    .preloader-hidden-add-active{visibility:hidden;}
+    .preloader-hidden{display:none}
+    .preloader-inner{position:absolute;top:0;left:0;height:100%;width:100%}
+    .load{transform:translateY(-50%);top:50%;position:absolute;width:100%;text-align:center}
+    .line {display: inline-block;width: 15px;height: 15px;border-radius: 15px;}
+    .load .line:nth-last-child(1) {animation: loading 1.5s 1s infinite;background-color: #8bc0ec;}
+    .load .line:nth-last-child(2) {animation: loading 1.5s 0.5s infinite;background-color: #fbe474;}
+    .load .line:nth-last-child(3) {animation: loading 1.5s 0s infinite;background-color: #8bc0ec;}
+    @keyframes loading{0%{width:15px;}50%{width:35px;}100%{width:15px;}}
+  </style>
+</head>
+<body>
+  <app-root></app-root>
+  <div class="preloader">
+    <div class="preloader-inner">
+      <div class="load">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
